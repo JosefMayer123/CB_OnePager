@@ -6,15 +6,15 @@
     --main-bg-color: #f8f1c2;
     --modal-bg-color: #eaac67;
     --btn-color: #d3491f;
-    --btn-external-link-color: #9cbe36;
+    --btn-external-link-color: #5299c0;
+
     --font-color: white;
     --form-bg-color: white;
     --form-font-color: black;
 }
 
-
 body{
-    background-color: var(--main-bg-color);
+    background-image: url("images/wallpaper_colors.jpg");
 }
 
 *{
