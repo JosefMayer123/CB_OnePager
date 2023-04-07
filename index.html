@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Title</title>
+</head>
+<body>
+
+<h1 id="start">Josef Mayer</h1>
+<h1>Meine persönliche Seite</h1>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="#info">Info</a></li>
+            <li><a href="#motivation">Motivation</a></li>
+            <li><a href="#werdegang">Werdegang</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+            <li><a href="#projekte">Projekte</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <article id="infos">
+        <section class="modal">
+            <h2>Informationen über mich</h2>
+            <p>Mein Name ist Josef Mayer, ich komme aus OÖ und bin zum Studieren nach Linz gezogen. Nach dem Studium der Mechatronik besuchte ich noch weitere LVAs aus Informatik an der JKU. Im Anschluss habe ich in verschiedenen Bereichen gearbeitet, unter anderem als Java-Softwareentwickler</p>
+            <p>In meiner Freizeit halte ich micht mit verschiedenen Sportarten fit, z.B. Laufen, Radfahren, Inline Skaten.</p>
+            <p>Zu meinen Interessen zählen Technologie und Innovation, dazu gehören speziell auch die Bereiche der Informationstechnik</p>
+            <a href="#start">nach oben</a>
+        </section>
+    </article>
+
+    <article id="motivation">
+        <section class="modal">
+            <h2>Meine Motivation für IT</h2>
+            <p>Ich habe ein allgemeines Interesse an Innovation und Innovationstreibern. Zu den Innovationstreibern der Gegenwart zähle ich Technologien und speziell die digitale Informationstechnologie.</p>
+            <p>Die Veränderungswirkungen von Informationstechnologien können in vielen Lebensbereichen beoabachtet werden. Dazu gehören die Engineering Industrien wie Maschinenbau, Anlagenbau, Automobile, aber auch Wirtschaftsbereiche wie Handel und Logisitik ebenso wie viele Bereiche der Public Services, wie Gesundheitswesen und Verwaltung. Genau so wichtig sind Verändeurngen in Consumer Bereichen: Medien, Unterhaltung, E-Commerce.</p>
+            <p>Internet und Mobile Services bieten neue Möglichkeiten der Kommunikation und Vernetzung von Menschen und erleichtern den beruflichen und privaten Informationsaustausch. </p>
+            <p>Kenntnisse und Kompetenzen in IT versetzen mich in die Lage, Entwicklungen besser verstehen zu können und auch Veränderungen selbst zu gestalten.</p>
+            <a href="#start">nach oben</a>
+        </section>
+    </article>
+
+    <article id="werdegang" class="werdegang">
+        <section class="modal">
+            <h2>Mein Werdegang</h2>
+            <p>Informationen zu meinem Werdegang entnehmen Sie meinem Lebenslauf:</p>
+
+            <div class = werdegang_buttons>
+                <a href="/documents/Lebenslauf_Mayer.pdf">Download CV</a>
+                <a href="#start">nach oben</a>
+            </div>
+        </section>
+    </article>
+
+    <article id="kontakt">
+        <section class="modal">
+            <form>
+                <h2>Kontakt</h2>
+
+                <fieldset>
+                    <input type="radio" id="privat" name="Zahlmethode" value="Mastercard">
+                    <label for="privat"> Privat </label>
+                    <input type="radio" id="firma" name="Zahlmethode" value="Visa">
+                    <label for="firma"> Firma</label>
+                </fieldset>
+
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name">
+
+                <label for="email">E-Mail</label>
+                <input type="email" name="email" id="email">
+
+                <label for="subject">Ihr Anliegen</label>
+                <textarea id="subject" name="subject" rows="4" cols="40">
+                </textarea>
+
+                <input type="submit" value="senden">
+
+            </form>
+        <a href="#start">nach oben</a>
+        </section>
+    </article>
+
+    <article id="projekte" class = "projekte">
+        <section class="modal">
+            <h2>Projekte</h2>
+            <p>Informationen zu meinen bisherigen Projekten finden Sie unter folgenden Links zu Github:</p>
+            <div>
+                <a href="https://github.com/josefmayer">Github Repository 1</a>
+                <a href="https://github.com/josefmayer123">Github Repository 2</a>
+            </div>
+            <a href="#start">nach oben</a>
+        </section>
+    </article>
+
+</main>
+
+</body>
+</html>
