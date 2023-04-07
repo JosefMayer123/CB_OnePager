@@ -7,7 +7,6 @@
     --modal-bg-color: #eaac67;
     --btn-color: #d3491f;
     --btn-external-link-color: #5299c0;
-
     --font-color: white;
     --form-bg-color: white;
     --form-font-color: black;
@@ -78,7 +77,6 @@ form{
     align-items: center;
     border-radius: 10px;
     margin: 1rem 0;
-
 }
 
 input[type="text"], input[type="email"]{
@@ -89,7 +87,6 @@ input[type="text"], input[type="email"]{
     color: var(--form-font-color);
     font-size: 1.5em;
     width: 60vw;
-
 }
 
 textarea{
